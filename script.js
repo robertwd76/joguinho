@@ -47,4 +47,40 @@ const perguntas = [
         ]
     }
 ];
+let atual = 0;
+let perguntaAtual; 
+let historiaFinal = "";
 
+function mostraPergunta(){
+if (atual >= perguntas.length) {
+mostraResultado();
+return;
+}
+perguntaAtual = perguntas [atual];
+caixaPerguntas.textContent = perguntaAtual.enunciado;
+caixaAlternativas.textContent="";
+textoResultado.text.Content = "";
+mostraAlternativas();
+}
+
+function mostraAlternativas () {
+for (const alternativa of perguntaAtual.alternativas) { 
+    const botaoAlternativa = document.createElement("button"); 
+    botacAlternativa.textContent = alternativa.texto; 
+    botaoAlternativa.addEventListener("click", ()=>
+resposta Selecionada (alternativa)); 
+    caixaAlternativas.appendChild (botaoAlternativa);
+  }
+}
+function respostaSelecionada (opcaoSelecionada) {
+const afirmacao = opcaoSelecionada.afirmacao;
+historiaFinal += afirmacao + " ";
+atual++
+mostraPergunta();
+}
+function mostraResultado () {
+caixaPerguntas.textContent = "Resumindo..."; 
+    textoResultado.textContent = historiaFinal;
+caixaAlternativas.textContent = "";
+}
+mostraPergunta();
