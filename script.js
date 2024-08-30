@@ -52,9 +52,6 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-let atual = 0;
-let perguntaAtual; 
-let historiaFinal = "";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
