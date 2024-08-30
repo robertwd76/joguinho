@@ -6,17 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual a melhor maneira de se combater o desmatamento?",
+        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
         alternativas: [
-            "reflorestamento de áreas degradadas",
-            "Implementação de leis mais rigorosas para a proteção das florestas"
+            {
+                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
+                afirmacao: "afirmacao1"
+            },
+            {
+                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
+                afirmacao: "afirmacao2"
+            }
+           
         ]
     },
     {
-        enunciado: "Como podemos combater a desigualdade social de forma eficaz e sustentável?",
+        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
         alternativas: [
-            "Implementar programas de educação e formação profissional acessíveis a todos",
-            "políticas de redistribuição de renda e oportunidades"
+            {
+                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
+                afirmacao: "afirmacao3"
+            },
+            {
+                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
+                afirmacao: "afirmacao4"
+            }
+           
         ]
     },
+    {
+        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        alternativas: [
+            {
+                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
+                afirmacao:"afirmacao5"
+            },
+            {
+                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
+                afirmacao:"afirmacao6"
+            }
+        ]
+    }
 ];
+
