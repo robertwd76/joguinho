@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual a importância do design responsivo em um site?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
+                texto: "Um design responsivo garante que o site funcione bem em dispositivos de diferentes tamanhos, desde computadores desktop até smartphones.",
                 afirmacao: "afirmacao1"
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
+                texto: "Sites com design responsivo tendem a ter melhor desempenho em motores de busca, pois o Google prioriza a experiência móvel.",
                 afirmacao: "afirmacao2"
             }
 
