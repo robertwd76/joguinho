@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Um design responsivo garante que o site funcione bem em dispositivos de diferentes tamanhos, desde computadores desktop até smartphones.",
-                afirmacao: "afirmacao1"
+                afirmacao: "Um design responsivo garante que o site funcione bem em dispositivos de diferentes tamanhos, desde computadores desktop até smartphones."
             },
             {
                 texto: "Sites com design responsivo tendem a ter melhor desempenho em motores de busca, pois o Google prioriza a experiência móvel.",
-                afirmacao: "afirmacao2"
+                afirmacao: "Sites com design responsivo tendem a ter melhor desempenho em motores de busca, pois o Google prioriza a experiência móvel."
             }
 
         ]
@@ -24,11 +24,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Imagens otimizadas reduzem o tempo de carregamento do site, melhorando a experiência do usuário e a taxa de retenção.",
-                afirmacao: "afirmacao3"
+                afirmacao: "Imagens otimizadas reduzem o tempo de carregamento do site, melhorando a experiência do usuário e a taxa de retenção."
             },
             {
                 texto: "A falta de otimização pode aumentar o tempo de carregamento, o que pode levar a uma penalização nos rankings dos motores de busca.",
-                afirmacao: "afirmacao4"
+                afirmacao: "A falta de otimização pode aumentar o tempo de carregamento, o que pode levar a uma penalização nos rankings dos motores de busca."
             }
 
         ]
@@ -38,11 +38,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Usabilidade eficiente facilita a navegação e a interação dos usuários com o site, tornando a experiência mais intuitiva e agradável.",
-                afirmacao: "afirmacao5"
+                afirmacao: "Usabilidade eficiente facilita a navegação e a interação dos usuários com o site, tornando a experiência mais intuitiva e agradável."
             },
             {
                 texto: "Sites com baixa usabilidade podem resultar em altas taxas de rejeição, pois os usuários podem achar difícil encontrar o que procuram.",
-                afirmacao: "afirmacao6"
+                afirmacao: "Sites com baixa usabilidade podem resultar em altas taxas de rejeição, pois os usuários podem achar difícil encontrar o que procuram."
             }
         ]
     }
