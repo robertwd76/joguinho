@@ -20,28 +20,28 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Como a otimização de imagens pode afetar a performance de um site?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
+                texto: "Imagens otimizadas reduzem o tempo de carregamento do site, melhorando a experiência do usuário e a taxa de retenção.",
                 afirmacao: "afirmacao3"
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
+                texto: "A falta de otimização pode aumentar o tempo de carregamento, o que pode levar a uma penalização nos rankings dos motores de busca.",
                 afirmacao: "afirmacao4"
             }
 
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual o papel da usabilidade na criação de sites?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
+                texto: "Usabilidade eficiente facilita a navegação e a interação dos usuários com o site, tornando a experiência mais intuitiva e agradável.",
                 afirmacao: "afirmacao5"
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
+                texto: "Sites com baixa usabilidade podem resultar em altas taxas de rejeição, pois os usuários podem achar difícil encontrar o que procuram.",
                 afirmacao: "afirmacao6"
             }
         ]
